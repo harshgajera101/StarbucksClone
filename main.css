@@ -1,0 +1,174 @@
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+/******* ANNOUNCEMENT *******/
+
+.announcements{
+    background-color: #d8e8e3;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.announcements span{
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 60%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+.announcements span a{
+    text-decoration: underline;
+}
+
+/****** LEFT-RIGHT SECTION ******/
+
+.left-right-section{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.left-right-section .image{
+    width: 50%;
+    /* height: 420px; */
+    display: flex;
+}
+
+.left-right-section .image img{
+    /* height: 100%; */
+    width: 100%;
+}
+
+.text{
+    width: 50%;
+    padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f8f6;
+    color: #1e3932;
+}
+
+.text h3 , .text h1{
+    margin: 0;
+    font-weight: 400;
+}
+
+.text h1{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.text h3{
+    margin-bottom: 32px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.text .cta{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: #1e3932;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.text .cta:hover{
+    background-color: rgba(30,57,50,.1);
+}
+
+/****** CHILL SECTION ******/
+
+.chill .text{
+    background-color: #f2f0eb;
+}
+
+.chill .text h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.chill .text h3{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/****** TOP-BOTTOM SECTION ******/
+
+.top-bottom-section{
+    width: 50%;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.top-bottom-section .image{
+    width: 100%;
+    display: flex;
+}
+
+.top-bottom-section .image img{
+    width: 100%;
+}
+
+.top-bottom-section .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #d4e9e2;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-top: 8px;
+    color: #1e3932;
+    flex-grow: 1;
+}
+
+.top-bottom-section .text h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.top-bottom-section .text h3{
+    font-size: 19px;
+    line-height: 1.75;
+}
+
+/*.top-bottom-section:first-child, .section-container{
+    margin-right: 16px;
+}*/
+.first-box{
+    margin-right: 16px;
+}
+
+.top-bottom-section:last-child .section-container{
+    margin-left: 16px;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**** SECTION-CONATINER "BOX, TOP-BOTTOM" ****/
+
+section {
+    display: flex;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
